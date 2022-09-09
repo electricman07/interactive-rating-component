@@ -35,6 +35,11 @@ p,
 .container {
   background-color: hsl(216, 12%, 8%);
   max-width: 1440px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -44,16 +49,22 @@ p,
   margin: 25px;
 }
 
-.img-container,
+.img-icon-container,
 .number {
   background-color: hsl(213, 19%, 25%);
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  margin: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 25px;
 }
 
 .text-container {
@@ -67,7 +78,7 @@ p,
 }
 
 .btn {
-  width: 80%;
+  width: 90%;
   border-radius: 25px;
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
