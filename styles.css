@@ -50,7 +50,8 @@ p {
   align-items: center;
 }
 
-.card {
+
+.card, .thank-you-card {
   background-color: hsl(213, 19%, 18%);
   width: 375px;
   border-radius: 25px;
@@ -67,7 +68,16 @@ p {
   justify-content: center;
   align-items: center;
 }
+.number:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
 
+.active {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
 .img-container {
   display: flex;
   flex-direction: row;
@@ -110,6 +120,11 @@ p {
   letter-spacing: 5px;
 }
 
+.btn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -117,6 +132,39 @@ p {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Thank You Card */
+
+.thank-you-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.thank-you-rating {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.p-rating {
+background-color: hsl(213, 19%, 25%);
+border-radius: 15px;
+width: 45%;
+color: hsl(25, 97%, 53%);
+padding: 5px;
+}
+
+.text-thank-you {
+    text-align: center;
+}
+
+.text-thank-you p {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 45px;
 }
 
 @media screen and (min-width: 600px) {
