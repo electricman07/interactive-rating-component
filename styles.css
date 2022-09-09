@@ -21,6 +21,10 @@ body {
 body {
   font-size: 15px;
   font-family: "Overpass", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
@@ -38,7 +42,7 @@ p {
 }
 .container {
   background-color: hsl(216, 12%, 8%);
-  max-width: 1440px;
+  width: 425px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -116,6 +120,9 @@ p {
 }
 
 @media screen and (min-width: 600px) {
+    .container {
+        width: 1440px;
+    }
   .card {
     width: 430px;
   }
