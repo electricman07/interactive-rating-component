@@ -56,16 +56,30 @@ p,
   align-items: center;
 }
 
+.text-container {
+  margin: 25px;
+}
+
 .rating-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
+.btn {
+  width: 80%;
+  border-radius: 25px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  padding: 20px;
+  margin: 20px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
