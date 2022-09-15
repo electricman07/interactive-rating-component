@@ -37,8 +37,7 @@ p,
 }
 
 p {
-    line-height: 25px;
-    
+  line-height: 25px;
 }
 .container {
   background-color: hsl(216, 12%, 8%);
@@ -50,8 +49,8 @@ p {
   align-items: center;
 }
 
-
-.card, .thank-you-card {
+.card,
+.thank-you-card {
   background-color: hsl(213, 19%, 18%);
   width: 375px;
   border-radius: 25px;
@@ -69,14 +68,14 @@ p {
   align-items: center;
 }
 .number:hover {
-    background-color: hsl(25, 97%, 53%);
-    color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
 }
 
 .active {
-    background-color: hsl(216, 12%, 54%);
-    color: hsl(0, 0%, 100%);
-    font-weight: 700;
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
 }
 .img-container {
   display: flex;
@@ -91,19 +90,17 @@ p {
 }
 
 .rating-container {
-    
-    margin: 0px 20px 0px 20px;
+  margin: 0px 20px 0px 20px;
 }
 
 .rating-flex-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  
 }
 
 .number {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .btn {
@@ -121,8 +118,8 @@ p {
 }
 
 .btn:hover {
-    background-color: hsl(0, 0%, 100%);
-    color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
 }
 
 .attribution {
@@ -137,45 +134,51 @@ p {
 /* Thank You Card */
 
 .thank-you-img {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .thank-you-rating {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .p-rating {
-background-color: hsl(213, 19%, 25%);
-border-radius: 15px;
-width: 45%;
-color: hsl(25, 97%, 53%);
-padding: 5px;
+  background-color: hsl(213, 19%, 25%);
+  border-radius: 15px;
+  width: 45%;
+  color: hsl(25, 97%, 53%);
+  padding: 5px;
 }
 
 .text-thank-you {
-    text-align: center;
+  text-align: center;
 }
 
 .text-thank-you p {
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 45px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 45px;
 }
 
 @media screen and (min-width: 600px) {
-    .container {
-        width: 1440px;
-    }
-  .card {
+  .container {
+    width: 1440px;
+  }
+  .card,
+  .thank-you-card {
     width: 430px;
   }
   .img-icon-container,
-.number {
-  width: 50px;
-  height: 50px;
+  .number {
+    width: 50px;
+    height: 50px;
+  }
+  .text-thank-you p {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
 }
