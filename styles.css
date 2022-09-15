@@ -70,6 +70,7 @@ p {
 .number:hover {
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
+  cursor: pointer;
 }
 
 .active {
@@ -120,6 +121,7 @@ p {
 .btn:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
+  cursor: pointer;
 }
 
 .attribution {
