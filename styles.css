@@ -11,8 +11,7 @@
 - Dark Blue: hsl(213, 19%, 18%)
 - Very Dark Blue: hsl(216, 12%, 8%)
 */
-html,
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -29,6 +28,7 @@ body {
 
 h2 {
   color: hsl(0, 0%, 100%);
+  font-size: 2rem;
 }
 
 p,
@@ -90,6 +90,10 @@ p {
   margin-bottom: 25px;
 }
 
+.text-container p {
+  margin-top: 20px;
+}
+
 .rating-container {
   margin: 0px 20px 0px 20px;
 }
@@ -109,10 +113,8 @@ p {
   border-radius: 25px;
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
-  padding: 20px;
-  margin: 40px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding: 15px;
+  margin: 30px 40px 30px 40px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -139,7 +141,7 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .thank-you-rating {
@@ -154,6 +156,7 @@ p {
   width: 45%;
   color: hsl(25, 97%, 53%);
   padding: 5px;
+  margin-bottom: 35px;
 }
 
 .text-thank-you {
@@ -164,6 +167,7 @@ p {
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 45px;
+  margin-top: 15px;
 }
 
 @media screen and (min-width: 600px) {
